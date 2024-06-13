@@ -2,12 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import Hola from './Saludo.jsx'
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+     <Hola danza='ballet' pais='peru' academia='perudance' imagen='danza1.png'/>
+     <Hola danza='cueca' pais='Bolivia' academia='BoliviaMar' imagen='cueca.png'/>
+     <Hola danza='cumbia' pais='Colombia' academia='SalsaKids' imagen='cumbia.png'/>
   </React.StrictMode>
 );
 
